@@ -9,6 +9,9 @@
 * {
   margin: 0;
 }
+html{
+  height: 915px;
+}
 
 
 #app {
