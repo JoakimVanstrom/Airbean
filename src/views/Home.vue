@@ -21,20 +21,26 @@
 }
 
 .intro{
-  grid-column: 2/3;
+  grid-column: 1/4;
   grid-row: 1;
   justify-self: center;
   align-self: center;
+  text-align: center;
   img {
     width: 5rem;
-    
+  }
+  h1{
+    padding: 0 0 1rem 0;
+    font-size: 4rem;
   }
 }
 
 img:nth-of-type(1){
+  grid-row: 1;
   grid-column: 1/2;
 }
 img:nth-of-type(2){
+   grid-row: 1;
   grid-column: 3/4;
   justify-self: end;
 }
