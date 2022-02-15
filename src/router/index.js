@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Menu from '../views/Menu.vue'
 import Nav from '../views/Nav.vue'
-import Coffee from '../views/Coffee.vue'
+import About from '../views/About.vue'
 
 Vue.use(VueRouter)
 
@@ -24,9 +24,9 @@ const routes = [
     component: Nav
   },
   {
-    path: '/coffe',
-    name: 'Coffee',
-    component: Coffee
+    path: '/about',
+    name: 'About',
+    component: About
   }
 ]
 
