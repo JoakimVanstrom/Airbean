@@ -3,7 +3,7 @@
       <img src="../assets/graphics/close.svg" alt="">
 <div class="links">
     <router-link to="/menu"> Meny </router-link>
-    <router-link to="/coffee"> Vårt Kaffe </router-link>
+    <router-link to="/about"> Vårt Kaffe </router-link>
     <router-link to="/"> Min profil </router-link>
     <router-link to="/"> OrderStatus </router-link>
 </div>
